@@ -1,0 +1,100 @@
+body {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),
+        url("abcd.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.main {
+    display: flex;
+    align-items: center;
+    /* vertical alignment FIX */
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    /* IMPORTANT */
+    padding: 0;
+    font-size: 30px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu li a:hover,
+.menu li.active a {
+    background-color: #fff;
+    color: black;
+}
+
+/* LOGO */
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 240px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.sub-menu ul {
+    list-style-type: none;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+
+.title {
+    position: absolute;
+    color: white;
+    top: 28%;
+    left: 30%;
+    font-size: 55px;
+}
+
+
+.btn {
+    position: absolute;
+    font-size: 30px;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50 -50);
+}
+
+.btn a {
+    color:black;
+    text-decoration: none;
+
+}
+
+.bbtn {
+    border: 1px solid #fff;
+}
+
+.bbtn:hover {
+    background-color: aliceblue;
+
+}
