@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ABC.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+
+.menu>ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 600px;
+    font-size: 35px;
+    gap: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ul li:hover,
+.active {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sub {
+    position: relative;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    list-style-type: none;
+    display: none;
+}
+
+.sub:hover .sub-menu {
+    display: block;
+}
+
+.title {
+    color: Red;
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.button .btn {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    border: 2px solid red;
+}
+
+.button {
+    text-align: center;
+}
+
+.button a:hover {
+    background-color: tomato;
+    color: black;
+}

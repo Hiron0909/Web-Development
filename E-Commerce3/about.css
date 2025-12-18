@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ABC.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.first {
+    margin-left: 600px;
+    display: inline-block;
+    padding: 20px 40px;
+
+    background: rgba(255, 255, 255, 0.2);
+    /* transparent */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.first h1 {
+    margin: 0;
+    color: wheat;
+    /* text-align: center; */
+
+}
+
+.second {
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
